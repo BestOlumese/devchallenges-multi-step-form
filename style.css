@@ -22,20 +22,22 @@
 
 body {
     background-image: url(img/blur-radial.svg);
-    background-color: var(--dark-blue);
-    background-size: cover;
+    background-color: var(--black);
+    /* background-size: cover; */
+    background-position: -200px -450px;
+    background-repeat: no-repeat;
     font-family: 'Inter', sans-serif;
 }
 
 .box {
     position: relative;
     background-color: var(--dark-blue);
-    width: 40%;
+    width: 35%;
     border-radius: 10px;
     border: 2px solid var(--shade-gray);
     color: var(--white);
     padding: 40px;
-    margin: 100px auto 0;
+    margin: 150px auto 0;
 }
 
 .box h1 {
@@ -82,7 +84,7 @@ form {
 
 .btn-group {
     margin: auto;
-    margin-top: 15px;
+    margin-top: 45px;
     text-align: center;
 }
 
